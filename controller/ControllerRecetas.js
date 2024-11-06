@@ -61,11 +61,11 @@ export function filtrarPorNombre(value) {
    crearRecetasNoVegetarianas(recetasNo)
 }
 
-function crearRecetasPorNombre(recetasNo) {
-  console.log(recetasNo);
+function crearRecetasPorNombre(recetas) {
+  console.log(recetas);
   
   document.getElementById("contenido").innerHTML = "";
-  recetasNo.map((recetaVegetariana) => {
+  recetas.map((recetaVegetariana) => {
     let contenedor = document.createElement("div");
     let nombre = document.createElement("p");
     let ingredientes = document.createElement("ul");
