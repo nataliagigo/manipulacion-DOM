@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/home.css">
+    <title>Recetas </title>
+</head>
+
+<body>
+    <aside>
+        <header>
+            <nav>
+                <button id="vegetarianas" type="button">Vegetarianas</button>
+                <button id="no-vegetarianas" type="button">No vegetarianas</button>
+                <button id="cerrar-sesion" type="button">Cerrar Sesión</button>
+            </nav>
+        </header>
+    </aside>
+    <main>
+        <h1>Recetas</h1>
+        <div>
+            <nav>
+                <form action="">
+                    <input placeholder="Nombre receta" id="nombre" name="nombre" type="text">
+                    <input placeholder="Dificultad receta" id="dificultad" name="dificultad" type="text">
+                    <input placeholder="Tipo receta" id="tipo" name="tipo" type="text">
+                    <button type="button" id="btnFiltrar">Filtrar</button>
+                </form>
+            </nav>
+            <section id="contenido" class="cards">
+
+            </section>
+        </div>
+        
+    </main>
+    <script type="module" src="../../view/public/js/script.js"></script>
+</body>
+</html>
